@@ -152,6 +152,7 @@ sudo systemctl status tlp
 - *ArcMenu **(opcional)***
 - *Dash to Dock **(opcional)***
 - *Dash to Panel **(opcional)***
+- *Transparent GNOME Panel* **(opcional)**
 
 ## 11. Personalizar gnome
 Los temas que tengo instalados en éste momento son:
