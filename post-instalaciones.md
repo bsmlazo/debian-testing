@@ -174,6 +174,6 @@ Los temas que tengo instalados en éste momento son:
   - Vimix-cursors
   - Vimix-white-cursors
 
-*La personalización que estoy utilizando en este momento lo saqué de éste [video](https://www.youtube.com/watch?v=qC0mnGprbeM). Acá hay otro [más](https://www.youtube.com/watch?v=VCM0TFAgyG4)*
+*La personalización que estoy utilizando en este momento lo saqué de éste [video](https://www.youtube.com/watch?v=qC0mnGprbeM). Acá hay otro [más](https://www.youtube.com/watch?v=VCM0TFAgyG4).*
 
-La mayoría de los tips anteriores los saqué de la siguiente <a href="https://averagelinuxuser.com/debian-10-after-install/#2-switch-to-the-fastest-repository-mirror" target="_blank">página</a> 
+La mayoría de los tips anteriores los saqué de la siguiente <a href="https://averagelinuxuser.com/debian-10-after-install/#2-switch-to-the-fastest-repository-mirror" target="_blank">página</a>. 
