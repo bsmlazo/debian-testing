@@ -13,6 +13,8 @@ A continuación están mis configuraciones para **Debian Testing Gnome**. Actual
 - [6. Instalar build-essential](#6-instalar-build-essential)
 - [7. Configurar Swappiness](#7-configurar-swappiness)
 - [8. Aumentar la velocidad de inicio](#8-aumentar-la-velocidad-de-inicio)
+- [9. Extender bateria para notebooks](#9-extender-bateria-para-notebooks)
+- [10. Habilitar extensiones gnome](#10-habilitar-extensiones-gnome)
 
 ## 1. Habilitar sudo
 Lo primero para empezar a trabajar es habilitar el sudo, ya que por defecto en Debian viene deshabilitado.
@@ -114,4 +116,37 @@ Editar el archivo de configuración del grub
 sudo vim /etc/default/grub
 ```
 
-Dejar la propiedad **GRUB_TIMEOUT** en 0
+Dejar la propiedad **GRUB_TIMEOUT** en 0, como muestra la siguiente imágen
+
+![image](https://user-images.githubusercontent.com/20421050/125221015-90aa0c80-e295-11eb-9386-45ed1eca97b7.png)
+
+Luego de editado el archivo debemos actualizar la configuración del grub
+
+```sh
+sudo update-grub
+```
+
+## 9. Extender bateria para notebooks
+Si estamos corriendo **Debian** en un notebook, podemos extender el tiempo de la batería con la herramienta TLP
+
+```sh
+sudo apt install tlp -y
+```
+
+Después de la instalación, reiniciamos el sistema y podemos verificar el proceso corriendo con el siguiente comando
+
+```sh
+sudo systemctl status tlp
+```
+
+## 10. Habilitar extensiones gnome
+- Caffeine
+- OpenWeather
+- Remove Dropdown Arrows
+- Sound Input & Output Device Chooser
+- Tray Icons: Reloaded
+- Workspace indicator
+- *Workspace Matrix **(opcional)***
+- *ArcMenu **(opcional)***
+- *Dash to Dock **(opcional)***
+- *Dash to Panel **(opcional)***
