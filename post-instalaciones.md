@@ -47,4 +47,9 @@ sudo apt install firmware-iwlwifi firmware-misc-nonfree firmware-realtek firmwar
 ```
 ***Reiniciar sistema.***
 
+Después de reiniciar el sistema configuramos los repositorios con la aplicación **software & updates**
+
+*Pestaña Debian software*
 ![image](https://user-images.githubusercontent.com/20421050/125216660-dadac000-e28c-11eb-9946-82ae2b54c0f0.png)
+
+*Pestaña Updates*
