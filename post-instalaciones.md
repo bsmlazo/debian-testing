@@ -47,4 +47,4 @@ sudo apt install firmware-iwlwifi firmware-misc-nonfree firmware-realtek firmwar
 ```
 ***Reiniciar sistema.***
 
-![image](https://user-images.githubusercontent.com/20421050/125216575-93543400-e28c-11eb-85d0-97722f941bd0.png)
+![image](https://user-images.githubusercontent.com/20421050/125216660-dadac000-e28c-11eb-9946-82ae2b54c0f0.png)
