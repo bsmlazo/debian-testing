@@ -1,9 +1,13 @@
+# debian-testing
+Mis configuraciones para Debian Testing Gnome.
+
 ## Intro
 A continuación están mis configuraciones para **Debian Testing Gnome**. Actualmente lo estoy utilizando con wyland.
 
 ## Contenido
 - [Habilitar sudo](#habilitar-sudo)
 - [Repostorios non-free](#repositorios-non-free)
+- [Instalar firmware](#instalar-firmware)
 - [Instalar firmware](#instalar-firmware)
 
 ## Habilitar sudo
@@ -31,11 +35,14 @@ sudo apt upgrade -y
 En debian es muy frecuente tener problemas con el firmware no libre, como el wifi. Para ello vamos a instalar los siguiente paquetes que estan arrojando error en los mensajes del sistema.
 
 Si queremos revisar los mensajes de error, podemos ejecutar lo siguiente
+
 ```sh
 sudo dmesg
 ```
 
 Instalar los paquetes restantes
+
 ```sh
 sudo apt install firmware-iwlwifi firmware-misc-nonfree firmware-realtek firmware-sof-signed -y
 ```
+***Reiniciar sistema.***
