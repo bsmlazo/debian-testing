@@ -16,6 +16,7 @@ A continuación están mis configuraciones para **Debian Testing Gnome**. Actual
 - [9. Extender bateria para notebooks](#9-extender-bateria-para-notebooks)
 - [10. Habilitar extensiones gnome](#10-habilitar-extensiones-gnome)
 - [11. Personalizar gnome](#11-personalizar-gnome)
+- [12. Instalar Flatpak](#12-instalar-flatpak)
 
 ## 1. Habilitar sudo
 Lo primero para empezar a trabajar es habilitar el sudo, ya que por defecto en Debian viene deshabilitado.
@@ -177,3 +178,6 @@ Los temas que tengo instalados en éste momento son:
 *La personalización que estoy utilizando en este momento lo saqué de éste [video](https://www.youtube.com/watch?v=qC0mnGprbeM). Acá hay otro [más](https://www.youtube.com/watch?v=VCM0TFAgyG4).*
 
 La mayoría de los tips anteriores los saqué de la siguiente <a href="https://averagelinuxuser.com/debian-10-after-install/#2-switch-to-the-fastest-repository-mirror" target="_blank">página</a>. 
+
+## 12. Instalar Flatpak
+Para realizar la instalación vamos a la página oficial de [Flatpak](https://flatpak.org/setup/Debian/)
