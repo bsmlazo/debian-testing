@@ -8,7 +8,7 @@ A continuación están mis configuraciones para **Debian Testing Gnome**. Actual
 - [1. Habilitar sudo](#1-habilitar-sudo)
 - [2. Repostorios non-free](#2-repositorios-non-free)
 - [3. Instalar firmware](#3-instalar-firmware)
-- [4. Habilitar botón minimizar](#4-habilitar-boton-minimizar)
+- [4. Habilitar botón minimizar](#4-habilitar-botón-minimizar)
 - [5. Instalar microcode](#5-instalar-microcode)
 - [6. Instalar build-essential](#6-instalar-build-essential)
 - [7. Configurar Swappiness](#7-configurar-swappiness)
