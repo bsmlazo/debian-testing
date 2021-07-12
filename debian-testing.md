@@ -174,6 +174,8 @@ Los temas que tengo instalados en éste momento son:
 - Cursor:
   - Vimix-cursors
   - Vimix-white-cursors
+  - Future-cyan-cursors
+  - Quintom negro y blanco
 
 *La personalización que estoy utilizando en este momento lo saqué de éste [video](https://www.youtube.com/watch?v=qC0mnGprbeM). Acá hay otro [más](https://www.youtube.com/watch?v=VCM0TFAgyG4).*
 
