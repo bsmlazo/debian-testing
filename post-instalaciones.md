@@ -15,6 +15,7 @@ A continuación están mis configuraciones para **Debian Testing Gnome**. Actual
 - [8. Aumentar la velocidad de inicio](#8-aumentar-la-velocidad-de-inicio)
 - [9. Extender bateria para notebooks](#9-extender-bateria-para-notebooks)
 - [10. Habilitar extensiones gnome](#10-habilitar-extensiones-gnome)
+- [11. Personalizar gnome](#11-personalizar-gnome)
 
 ## 1. Habilitar sudo
 Lo primero para empezar a trabajar es habilitar el sudo, ya que por defecto en Debian viene deshabilitado.
@@ -150,3 +151,29 @@ sudo systemctl status tlp
 - *ArcMenu **(opcional)***
 - *Dash to Dock **(opcional)***
 - *Dash to Panel **(opcional)***
+
+## 11. Personalizar gnome
+Los temas que tengo instalados en éste momento son:
+- Aplicaciones:
+  - Arc theme
+  - Cameo-ALU-Dark-Blue-1.5
+  - Cameo-OSX
+  - Canta light *(para la shell)*
+  - Agua-negra-Arc *(para la shell)*
+  - Orchis
+  - Prof-Gnome-Dark-3.6
+  - Prof-Gnome-Light-3.6
+  - Yaru-remix-dark
+  - Yaru-remix-light
+- Iconos:
+  - Papirus
+  - Korla *(los tengo en mi drive)*
+  - Qogir
+  - Yaru-remix-light
+- Cursor:
+  - Vimix-cursors
+  - Vimix-white-cursors
+
+*La personalización que estoy utilizando en este momento lo saqué de éste [video](https://www.youtube.com/watch?v=qC0mnGprbeM). Acá hay otro [más](https://www.youtube.com/watch?v=VCM0TFAgyG4)*
+
+La mayoría de los tips anteriores los saqué de la siguiente <a href="https://averagelinuxuser.com/debian-10-after-install/#2-switch-to-the-fastest-repository-mirror" target="_blank">página</a> 
