@@ -56,3 +56,37 @@ Después de reiniciar el sistema configuramos los repositorios con la aplicació
 *Pestaña Updates*
 
 ![image](https://user-images.githubusercontent.com/20421050/125217234-2a6dbb80-e28e-11eb-81d1-f9867ebe4107.png)
+
+Nuevamente actualizamos el sistema.
+
+```sh
+sudo apt update
+sudo apt upgrade -y
+```
+
+## Habilitar botón minimizar
+Para mostrar el botón minimizar, se debe abrir **gnome tweaks** y habilitar el botón en la sección **Barra de títulos de ventana**
+
+![image](https://user-images.githubusercontent.com/20421050/125217960-e2e82f00-e28f-11eb-9101-46d684781989.png)
+
+## Instalar microcode
+Microcode es un firmaware para la CPU que controla cómo trabaja el procesador. En mi caso tengo un procesador Intel, por lo que se debe instalar
+
+```sh
+sudo apt install intel-microcode -y
+```
+
+## Instalar build-essential
+
+```sh
+sudo apt install build-essential dkms linux-headers-$(uname -r) -y
+```
+
+## Configurar Swappiness
+El uso de la memoria swap está configurada en 60 por defecto, que para la mayoría de los casos está bien. Pero si disminuimos éste número el sistema utilizará más **RAM** y comenzará a utilizar la swap más tarde.
+
+Chequear valor swapiness
+
+```sh
+cat /proc/sys/vm/swappiness
+```
