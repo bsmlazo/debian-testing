@@ -5,12 +5,12 @@ Mis configuraciones para Debian Testing Gnome.
 A continuación están mis configuraciones para **Debian Testing Gnome**. Actualmente lo estoy utilizando con wyland.
 
 ## Contenido
-- [Habilitar sudo](#habilitar-sudo)
-- [Repostorios non-free](#repositorios-non-free)
-- [Instalar firmware](#instalar-firmware)
-- [Instalar firmware](#instalar-firmware)
+- [1. Habilitar sudo](#habilitar-sudo)
+- [2. Repostorios non-free](#repositorios-non-free)
+- [3. Instalar firmware](#instalar-firmware)
+- [4. Instalar firmware](#instalar-firmware)
 
-## Habilitar sudo
+## 1. Habilitar sudo
 Lo primero para empezar a trabajar es habilitar el sudo, ya que por defecto en Debian viene deshabilitado.
 Para ello vamos a cambiar al usuario root y editar el archivo sudoers, para agregar nuestro usuario.
 
@@ -90,3 +90,24 @@ Chequear valor swapiness
 ```sh
 cat /proc/sys/vm/swappiness
 ```
+
+Abrir y editar el archivo de conf de swap
+
+```sh
+sudo vim /etc/sysctl.conf
+```
+
+Pegar el siguiente contenido el final del archivo *vm.swappiness = 10*
+
+***Guardar y reiniciar el sistema***
+
+## Aumentar la velocidad de inicio
+Al momento de inciar el sistema nos muestra el menú del **grub**. Ésto es útil cuando tenemos más de un S.O. instalado en nuestro dispositivo, pero si no es el caso entonces vamos a omnitir este paso.
+
+Editar el archivo de configuración del grub
+
+```sh
+sudo vim /etc/default/grub
+```
+
+Dejar la propiedad **GRUB_TIMEOUT** en 0
