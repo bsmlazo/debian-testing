@@ -46,3 +46,5 @@ Instalar los paquetes restantes
 sudo apt install firmware-iwlwifi firmware-misc-nonfree firmware-realtek firmware-sof-signed -y
 ```
 ***Reiniciar sistema.***
+
+![image](https://user-images.githubusercontent.com/20421050/125216575-93543400-e28c-11eb-85d0-97722f941bd0.png)
